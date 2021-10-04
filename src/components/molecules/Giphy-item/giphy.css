@@ -1,0 +1,30 @@
+
+.giphy__item{
+    display: inline-block;
+    width: 30%;
+    margin: 1.25rem;
+    color: #1D252D;
+    border: 1px solid #F1F6FA;
+    box-shadow: 0 0 3.25rem rgba(123, 139, 164, 0.1);
+    border-radius: 0.75rem;
+}
+
+.giphy_img{
+    width: 100%;
+    height: 15.31rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.giphy__item:hover{
+    cursor: pointer;
+    background: #1D252D;
+    color: #FFF;
+}
+
+.giphy_title{
+   margin: 0.75rem 0;
+   font-size: 0.85rem;
+   font-weight: 500;
+   letter-spacing: 0.2px;
+}
