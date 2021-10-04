@@ -5,8 +5,9 @@
     margin: 1.25rem;
     color: #1D252D;
     border: 1px solid #F1F6FA;
-    box-shadow: 0 0 3.25rem rgba(123, 139, 164, 0.1);
+    box-shadow: 0 0 3.25rem rgba(123, 139, 164, 0.15);
     border-radius: 0.75rem;
+    
 }
 
 .giphy_img{
@@ -28,3 +29,11 @@
    font-weight: 500;
    letter-spacing: 0.2px;
 }
+
+
+
+/* @media only screen and (max-width : 480px) {
+    .giphy__item{
+        width: 45%;
+    }
+} */
