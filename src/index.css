@@ -182,3 +182,8 @@ button:hover{
     animation-iteration-count: 2;
   } */
   
+@media only screen and (max-width : 480px) {
+  html, body{
+    font-size: 9px;
+  }
+}
