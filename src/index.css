@@ -14,7 +14,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/* font-size: 100%; */
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -25,18 +24,14 @@ footer, header, hgroup, menu, nav, section {
 }
 
 html {
-  /* font-size: 1rem; */
   font-size: 16px;
-  /* font-size: calc(16px + 6 * ((100vw - 320px) / 680)); */
   scroll-behavior: smooth;
 }
 
 body {
-    line-height: 1.5;
-    font-family: 'Gilroy', sans-serif;
-    box-sizing: border-box;
-    font-size: 16px;
-    text-align: center;
+  line-height: 1.5;
+  font-family: 'Gilroy', sans-serif;
+  text-align: center;
 }
 
 
@@ -76,7 +71,7 @@ button:hover{
   box-sizing: border-box;
 }
 
-/*****************/
+/******* Custom Fonts **********/
 
 @font-face {
   font-family: "Gilroy";
@@ -110,7 +105,7 @@ button:hover{
     font-display: swap;
 }
 
-/********************/
+/********** base css **********/
 
 :root {
   --global-primary-text-color:#1D252D;
@@ -130,58 +125,15 @@ button:hover{
   /* --global-section-hori-padding: 12vw; */
 }
 
-.section {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.sectionPadding {
-  padding: 0 calc(20vw / var(--global-scale-factor-mobile));
-}
 .heading{
-    font-size: 2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: underline;
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
-/* CUSTOM CSS FOR GIPHY */
-
-@keyframes animateGiphyOnHover {
-    0%   {
-      -webkit-transform: scale(1);
-      -moz-transform: scale(1);
-      -o-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1)
-    }
-    50%  {
-      -webkit-transform: scale(2);
-      -moz-transform: scale(2);
-      -o-transform: scale(2);
-      -ms-transform: scale(2);
-      transform: scale(2)
-    }
-    100%  {
-      -webkit-transform: scale(1);
-      -moz-transform: scale(1);
-      -o-transform: scale(1);
-      -ms-transform: scale(1);
-      transform: scale(1)
-    }
-  }
-  
-  /* .giphy__item:hover {
-    left: 50px;
-    top: 50px;
-    background-color: #EEE;
-    animation-name: animateGiphyOnHover;
-    animation-duration: 5s;
-    animation-iteration-count: 2;
-  } */
-  
 @media only screen and (max-width : 480px) {
   html, body{
     font-size: 9px;
